@@ -1,5 +1,5 @@
 {
-    "name": "cp/health-check",
+    "name": "fliengster/health-check",
     "description": "Health checker bundle",
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "cp\\HealthCheckBundle\\": "src/"
+            "fliengster\\HealthCheckBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "cp\\HealthCheckBundle\\Tests\\": "tests/"
+            "fliengster\\HealthCheckBundle\\Tests\\": "tests/"
         }
     },
     "replace": {
