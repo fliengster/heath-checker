@@ -1,0 +1,8 @@
+services:
+  _instanceof:
+    cp\HealthCheckBundle\Service\HealthInterface:
+      tags:
+        - !php/const cp\HealthCheckBundle\Service\HealthInterface::TAG
+
+  cp\HealthCheckBundle\Controller\HealthController:
+    autoconfigure: true
