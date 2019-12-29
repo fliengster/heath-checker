@@ -1,5 +1,5 @@
 {
-    "name": "fliengster/health-check",
+    "name": "fliengster/health-checker",
     "description": "Health checker bundle",
     "minimum-stability": "dev",
     "prefer-stable": true,
